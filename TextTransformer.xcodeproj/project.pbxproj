@@ -11,6 +11,9 @@
 		2D6C034C226BACC000F13BC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6C034B226BACC000F13BC2 /* ViewController.swift */; };
 		2D6C034E226BACC200F13BC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6C034D226BACC200F13BC2 /* Assets.xcassets */; };
 		2D6C0351226BACC200F13BC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6C034F226BACC200F13BC2 /* Main.storyboard */; };
+		2D6C035A226BCE7D00F13BC2 /* zalgo.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D6C0359226BCE7D00F13BC2 /* zalgo.json */; };
+		2D6C035C226BCEB100F13BC2 /* ZalgoCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6C035B226BCEB100F13BC2 /* ZalgoCharacters.swift */; };
+		2D6C035E226BD0B700F13BC2 /* ROT13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6C035D226BD0B700F13BC2 /* ROT13.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		2D6C0350226BACC200F13BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D6C0352226BACC200F13BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D6C0353226BACC200F13BC2 /* TextTransformer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TextTransformer.entitlements; sourceTree = "<group>"; };
+		2D6C0359226BCE7D00F13BC2 /* zalgo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zalgo.json; sourceTree = "<group>"; };
+		2D6C035B226BCEB100F13BC2 /* ZalgoCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZalgoCharacters.swift; sourceTree = "<group>"; };
+		2D6C035D226BD0B700F13BC2 /* ROT13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROT13.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +61,13 @@
 			children = (
 				2D6C0349226BACC000F13BC2 /* AppDelegate.swift */,
 				2D6C034B226BACC000F13BC2 /* ViewController.swift */,
+				2D6C035D226BD0B700F13BC2 /* ROT13.swift */,
+				2D6C035B226BCEB100F13BC2 /* ZalgoCharacters.swift */,
 				2D6C034D226BACC200F13BC2 /* Assets.xcassets */,
 				2D6C034F226BACC200F13BC2 /* Main.storyboard */,
 				2D6C0352226BACC200F13BC2 /* Info.plist */,
 				2D6C0353226BACC200F13BC2 /* TextTransformer.entitlements */,
+				2D6C0359226BCE7D00F13BC2 /* zalgo.json */,
 			);
 			path = TextTransformer;
 			sourceTree = "<group>";
@@ -123,6 +132,7 @@
 			files = (
 				2D6C034E226BACC200F13BC2 /* Assets.xcassets in Resources */,
 				2D6C0351226BACC200F13BC2 /* Main.storyboard in Resources */,
+				2D6C035A226BCE7D00F13BC2 /* zalgo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D6C035C226BCEB100F13BC2 /* ZalgoCharacters.swift in Sources */,
 				2D6C034C226BACC000F13BC2 /* ViewController.swift in Sources */,
 				2D6C034A226BACC000F13BC2 /* AppDelegate.swift in Sources */,
+				2D6C035E226BD0B700F13BC2 /* ROT13.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
